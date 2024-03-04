@@ -1,36 +1,47 @@
 {
-  // My settings
-    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 15,
-    "editor.tabSize": 2,
-    "editor.lineHeight": 0,
-    "editor.detectIndentation": false,
-    "editor.wordWrap": "on",
-    "workbench.reduceMotion": "on",
-    "workbench.editor.tabSizing": "shrink",
-    
-    // Rust settings
-    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    "rust-analyzer.inlayHints.chainingHints.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false,
-    "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "rust-analyzer.lens.run.enable": false,
-    "rust-analyzer.lens.debug.enable": false,
-    "rust-analyzer.lens.implementations.enable": false,
+  // Mac only fonts:
+  // "editor.fontFamily": "Inconsolata, SF Mono, Monaco, 'Courier New', monospace",
 
-    /*
-    "workbench.colorCustomizations": {
-      "editor.background": "#000000"
-    },
-    */
-    
-    // Stuff that annoys me but I don't care about
-    "terminal.integrated.tabs.enableAnimation": false,
-    "extensions.ignoreRecommendations": true,
-    "editor.minimap.enabled": false,
-    "editor.codeLens": false,
-    "workbench.activityBar.visible": false,
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.showReleaseNotes": false,
-    "update.mode": "none",
+  // Mac line height
+  // "editor.lineHeight": 1.2,
+
+  // Mac font size:
+  // "editor.fontSize": 15,
+  
+  // Windows font size:
+  // "editor.fontSize": 14,
+
+  // Tabs
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "on",
+
+  // Editor
+  "workbench.reduceMotion": "on",
+  "workbench.editor.tabSizing": "shrink",
+  /*
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000"
+  },
+  */
+
+  // Rust
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.lens.run.enable": false,
+  "rust-analyzer.lens.debug.enable": false,
+  "rust-analyzer.lens.implementations.enable": false,
+
+  // Stuff that annoys me but I don't care to organize
+  "terminal.integrated.tabs.enableAnimation": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": false,
+  "workbench.activityBar.visible": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.showReleaseNotes": false,
+  "update.mode": "none",
 }

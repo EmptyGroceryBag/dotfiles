@@ -9,7 +9,7 @@
   // "editor.fontSize": 15,
   
   // Windows font size:
-  // "editor.fontSize": 14,
+  "editor.fontSize": 14,
 
   // Tabs
   "editor.tabSize": 2,
@@ -18,13 +18,23 @@
   "editor.wordWrap": "on",
 
   // Editor
+  "editor.quickSuggestions": {
+    "other": false
+  },
   "workbench.reduceMotion": "on",
   "workbench.editor.tabSizing": "shrink",
-  /*
+  "workbench.activityBar.location": "hidden",
+  "explorer.autoReveal": "focusNoScroll",
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+
+  // Tree highlighting
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
-    "editor.background": "#000000"
+    "tree.indentGuidesStroke": "#05ef3c",
+    //"editor.background": "#000000"
   },
-  */
 
   // Rust
   "rust-analyzer.inlayHints.closingBraceHints.enable": false,
@@ -43,5 +53,5 @@
   "workbench.activityBar.visible": false,
   "update.enableWindowsBackgroundUpdates": false,
   "update.showReleaseNotes": false,
-  "update.mode": "none",
+  "update.mode": "none"
 }

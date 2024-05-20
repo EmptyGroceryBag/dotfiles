@@ -1,18 +1,19 @@
 " Plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 	" Fuzzy finder
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 
 	" Colorscheme
-	Plug 'dikiaap/minimalist'
+	Plug 'elvessousa/sobrio'
 
 	" Improved syntax highlighting
 	Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 " Colorscheme
-colorscheme minimalist
+colorscheme sobrio
+set termguicolors
 set hlsearch
 
 " Misc.

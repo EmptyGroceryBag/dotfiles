@@ -10,6 +10,7 @@
   
   // Windows font size:
   "editor.fontSize": 14,
+  "editor.fontFamily": "Consolas, JetBrains Mono, 'Courier New', monospace",
 
   // Tabs
   "editor.tabSize": 2,
@@ -21,19 +22,21 @@
   "editor.quickSuggestions": {
     "other": false
   },
+  "editor.semanticHighlighting.enabled": false,
   "workbench.reduceMotion": "on",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.activityBar.location": "hidden",
   "explorer.autoReveal": "focusNoScroll",
   "window.menuBarVisibility": "toggle",
   "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Hybrid Next",
 
   // Tree highlighting
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#05ef3c",
-    //"editor.background": "#000000"
+    // "editor.background": "#000000"
   },
 
   // Rust
@@ -45,13 +48,16 @@
   "rust-analyzer.lens.debug.enable": false,
   "rust-analyzer.lens.implementations.enable": false,
 
-  // Stuff that annoys me but I don't care to organize
+  // UI stuff that annoys me
   "terminal.integrated.tabs.enableAnimation": false,
   "extensions.ignoreRecommendations": true,
   "editor.minimap.enabled": false,
   "editor.codeLens": false,
-  "workbench.activityBar.visible": false,
   "update.enableWindowsBackgroundUpdates": false,
   "update.showReleaseNotes": false,
-  "update.mode": "none"
+  "update.mode": "none",
+  "editor.bracketPairColorization.enabled": false,
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.editor.enablePreview": false,
 }

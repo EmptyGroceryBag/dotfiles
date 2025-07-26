@@ -50,7 +50,7 @@ export FZF_DEFAULT_COMMAND='find .'
 # MacOS customizations
 # alias llvm-clang='/opt/homebrew/opt/llvm@15/bin/clang'
 # alias 'llvm-clang++'='/opt/homebrew/opt/llvm@15/bin/clang++'
-# export PATH="/opt/homebrew/opt/llvm/bin:/Users/joey/bin:/Users/joey/bin/vscode.app/Contents/Resources/app/bin:$PATH"
+# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # alias ls='ls -la --color=auto'
 # alias vim='/opt/homebrew/bin/nvim'

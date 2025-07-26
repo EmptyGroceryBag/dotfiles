@@ -22,14 +22,10 @@
   "editor.quickSuggestions": {
     "other": false
   },
-  "editor.semanticHighlighting.enabled": false,
-  "workbench.reduceMotion": "on",
-  "workbench.editor.tabSizing": "shrink",
-  "explorer.autoReveal": "focusNoScroll",
-  "window.menuBarVisibility": "toggle",
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Hybrid Next",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingComments": "never",
 
   // Tree highlighting
   "workbench.tree.indent": 15,
@@ -38,6 +34,9 @@
     "tree.indentGuidesStroke": "#05ef3c",
     // "editor.background": "#000000"
   },
+
+  // Colors
+  "workbench.colorTheme": "MacOS Modern Dark - Xcode Modern",
 
   // Rust
   "rust-analyzer.inlayHints.closingBraceHints.enable": false,
@@ -56,8 +55,17 @@
   "update.enableWindowsBackgroundUpdates": false,
   "update.showReleaseNotes": false,
   "update.mode": "none",
-  "editor.bracketPairColorization.enabled": false,
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
+
   "workbench.editor.enablePreview": false,
+  "workbench.reduceMotion": "on",
+  "workbench.editor.tabSizing": "shrink",
+  "explorer.autoReveal": "focusNoScroll",
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true
 }

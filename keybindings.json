@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+\\",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+up",    // whatever keybinding you want
+    "command": "cursorMove",
+    "args": {
+        "to": "prevBlankLine",
+        "select": false         // false is the default if omitted
+    },
+    "when": "editorTextFocus"
+  },
+  {
+      "key": "ctrl+down",
+      "command": "cursorMove",
+      "args": {
+          "to": "nextBlankLine",
+          "select": false         // false is the default if omitted
+      },
+      "when": "editorTextFocus"
+  },
+]

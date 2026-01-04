@@ -1,3 +1,6 @@
+# VSCode Configuration
+## Copy `settings.json` and `keybindings.json` to `/Users/$USER/Library/Application Support/Code/User/`
+
 # Neovim Configuration
 ## Dependencies
 - Node.js
